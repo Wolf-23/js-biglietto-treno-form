@@ -23,7 +23,8 @@
                     <div class="gender">
                         <label for="user_gender">Fascia d'età</label>
                         <select name="user_gender" id="user_gender">
-                            <option value="minorenne">Minorenne</option>
+                            <option value="-">Scegli età</option>
+                            <option value="Minorenne">Minorenne</option>
                             <option value="Maggiorenne">Maggiorenne</option>
                             <option value="Over 65">Over 65</option>
                         </select>
@@ -34,29 +35,31 @@
                     <button id="annulla" class="my_btn">Annulla</button>
                 </div>
             </section>
-            <h2 class="title_ticket">Il tuo biglietto</h2>
-            <section id="ticket_section">
-                <h3>Dettaglio Passeggeri</h3>
-                <div class="ticket">
-                    <div class="ticket_data">
-                        <div class="passenger">Nome Passeggero</div>
-                        <div id="nome"></div>
-                    </div>
-                    <div>
-                        <span class="pb-60 f_bold">Offerta</span>
-                        <span>Biglietto Standard</span>
-                    </div>
-                    <div>
-                        <span class="pb-60 f_bold">Carrozza</span>
-                        <span id="num_carrozza"></span>
-                    </div>
-                    <div>
-                        <span class="pb-60 f_bold">Codice CP</span>
-                        <span id="codice_ticket"></span>
-                    </div>
-                    <div>
-                        <span class="pb-60 f_bold">Costo Biglietto</span>
-                        <span id="price"></span>
+            <section id="section_ticket" class="none">
+                <h2 class="title_ticket">Il tuo biglietto</h2>
+                <div id="ticket_container">
+                    <h3>Dettaglio Passeggeri</h3>
+                    <div class="ticket">
+                        <div class="ticket_data">
+                            <div class="passenger">Nome Passeggero</div>
+                            <div id="nome"></div>
+                        </div>
+                        <div>
+                            <span class="pb-60 f_bold">Offerta</span>
+                            <span>Biglietto Standard</span>
+                        </div>
+                        <div>
+                            <span class="pb-60 f_bold">Carrozza</span>
+                            <span id="num_carrozza"></span>
+                        </div>
+                        <div>
+                            <span class="pb-60 f_bold">Codice CP</span>
+                            <span id="codice_ticket"></span>
+                        </div>
+                        <div>
+                            <span class="pb-60 f_bold">Costo Biglietto</span>
+                            <span id="price"></span>
+                        </div>
                     </div>
                 </div>
             </section>

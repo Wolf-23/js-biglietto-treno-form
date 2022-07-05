@@ -32,7 +32,7 @@ main {
     padding: 20px 0;
 }
 
-#input_data, #ticket_section {
+#input_data, #ticket_container {
     width: 80%;
     margin: auto;
     background-color: #fff;
@@ -66,11 +66,11 @@ form div>label {
     margin: 40px 15px 20px;
 }
 
-#ticket_section {
+#ticket_container {
     padding: 10px;
 }
 
-#ticket_section span {
+#ticket_container span {
     display: block;
     font-size: 18px;
 }
@@ -95,4 +95,12 @@ form div>label {
 #nome {
     font-size: 19px;
     padding-bottom: 40px;
+}
+
+.none {
+    display: none;
+}
+
+.show {
+    display: block;
 }
