@@ -8,7 +8,59 @@
         <title>Document</title>
     </head>
     <body>
-        
+        <main>
+            <h2 class="title_data">Calcola il prezzo del tuo biglietto</h2>
+            <section id="input_data">
+                <form action="#" class="form_data">
+                    <div class="user">
+                        <label for="datauser">Nome e Cognome</label>
+                        <input id="data_user" type="text" for="datauser" name="dati_utente" placeholder="Mario Rossi">
+                    </div>
+                    <div class="kilometri">
+                        <label for="km">Km da percorrere</label>
+                        <input id="km" type="number" for="km" name="km_da_percorrere" placeholder="20">
+                    </div>
+                    <div class="gender">
+                        <label for="user_gender">Fascia d'età</label>
+                        <select name="user_gender" id="user_gender">
+                            <option value="minorenne">Minorenne</option>
+                            <option value="Maggiorenne">Maggiorenne</option>
+                            <option value="Over 65">Over 65</option>
+                        </select>
+                    </div>
+                </form>
+                <div class="btn_container">
+                    <button id="genera" class="my_btn">Genera</button>
+                    <button id="annulla" class="my_btn">Annulla</button>
+                </div>
+            </section>
+            <h2 class="title_ticket">Il tuo biglietto</h2>
+            <section id="ticket_section">
+                <h3>Dettaglio Passeggeri</h3>
+                <div class="ticket">
+                    <div class="ticket_data">
+                        <div class="passenger">Nome Passeggero</div>
+                        <div id="nome"></div>
+                    </div>
+                    <div>
+                        <span class="pb-60 f_bold">Offerta</span>
+                        <span>Biglietto Standard</span>
+                    </div>
+                    <div>
+                        <span class="pb-60 f_bold">Carrozza</span>
+                        <span id="num_carrozza"></span>
+                    </div>
+                    <div>
+                        <span class="pb-60 f_bold">Codice CP</span>
+                        <span id="codice_ticket"></span>
+                    </div>
+                    <div>
+                        <span class="pb-60 f_bold">Costo Biglietto</span>
+                        <span id="price"></span>
+                    </div>
+                </div>
+            </section>
+        </main>
         <!-- Script JS -->
         <script type="text/javascript" src="js/main.js"></script>
     </body>

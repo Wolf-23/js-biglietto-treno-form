@@ -5,3 +5,94 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generale */
+.pb-60 {
+    padding-bottom: 60px;
+} 
+
+.f_bold {
+    font-weight: bold;
+}
+
+/* Main */ 
+
+main {
+    background-color: rgb(208, 76, 76);
+    height: 100vh;
+}
+
+.title_data, .title_ticket {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title_data {
+    padding: 20px 0;
+}
+
+#input_data, #ticket_section {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+}
+
+#input_data {
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.form_data {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+form div>label {
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: center;
+}
+
+.my_btn {
+    margin: 40px 15px 20px;
+}
+
+#ticket_section {
+    padding: 10px;
+}
+
+#ticket_section span {
+    display: block;
+    font-size: 18px;
+}
+
+.ticket {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.ticket_data {
+    background-color: grey;
+    padding: 15px;
+    font-weight: 900;
+}
+
+.passenger {
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+#nome {
+    font-size: 19px;
+    padding-bottom: 40px;
+}
