@@ -6,6 +6,8 @@ const etaDom = document.getElementById("user_age");
 
 const nomeDom = document.getElementById("nome");
 
+let promoDom = document.getElementById("promo");
+
 let num_carrozzaDom = document.getElementById("num_carrozza");
 
 let codice_ticketDom = document.getElementById("codice_ticket");
@@ -33,15 +35,18 @@ generaDom.addEventListener('click' ,
         
         if (etaDom.value == "Minorenne") {
             let sconto = prezzo_intero -= (prezzo_intero * 0.2);
-            priceDom.innerHTML = sconto.toFixed(2); 
+            priceDom.innerHTML = sconto.toFixed(2);
+            promoDom.innerHTML = "Biglietto scontato del 20%"
         } else if (etaDom.value == "Over 65") {
             let sconto = prezzo_intero -= (prezzo_intero * 0.4);
             priceDom.innerHTML = sconto.toFixed(2);
+            promoDom.innerHTML = "Biglietto scontato del 40%"
         } else if (etaDom.value == "-") {
             priceDom.innerHTML = "Scegliere età!"
         }
         else {
             priceDom.innerHTML = prezzo_intero;
+            promoDom.innerHTML = "Biglietto standard"
         }
 
     }
