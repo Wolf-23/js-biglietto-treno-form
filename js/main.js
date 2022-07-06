@@ -24,6 +24,7 @@ generaDom.addEventListener('click' ,
     function() {
 
         ticketDom.add("show");
+        ticketDom.remove("none");
 
         nomeDom.innerHTML = data_userDom.value; 
 
@@ -58,6 +59,7 @@ annullaDom.addEventListener('click' ,
         data_userDom.value = '';
         kilometriDom.value = '';
         etaDom.value = '-';
+        ticketDom.add("none");
         ticketDom.remove("show");
     }
 )
