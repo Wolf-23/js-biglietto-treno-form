@@ -2,7 +2,7 @@ const data_userDom = document.getElementById("data_user");
 
 const kilometriDom = document.getElementById("km");
 
-const etaDom = document.getElementById("user_gender");
+const etaDom = document.getElementById("user_age");
 
 const nomeDom = document.getElementById("nome");
 
