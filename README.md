@@ -3,4 +3,4 @@
 * Nome: js-biglietto-treno-form
 * Autore: Lupinu Riccardo
 * Data: 05/07/2022
-* Linguaggio: HTML, JavaScript
+* Linguaggio: HTML, CSS, JavaScript
